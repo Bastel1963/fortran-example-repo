@@ -1,0 +1,10 @@
+program SumArray
+    implicit none
+    integer :: arr(5) = [1, 2, 3, 4, 5]
+    integer :: sum, i
+    sum = 0
+    do i = 1, 5
+        sum = sum + arr(i)
+    end do
+    print *, sum
+end program SumArray
